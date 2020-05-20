@@ -10,7 +10,20 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Quizz"),
         ),
-        body: Text("Welcome to hogwarts"),
+        body: Column(
+          children: [
+            Text("Question"),
+            RaisedButton(
+              child: Text("Answer 1"),
+            ),
+            RaisedButton(
+              child: Text("Answer 1"),
+            ),
+            RaisedButton(
+              child: Text("Answer 1"),
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -7,7 +7,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(tittle: Text( "Quizz"),),  
+        appBar: AppBar(
+          title: Text("Quizz"),
+        ),
         body: Text("Welcome to hogwarts"),
       ),
     );

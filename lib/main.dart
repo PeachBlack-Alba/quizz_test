@@ -15,12 +15,15 @@ class MyApp extends StatelessWidget {
             Text("Question"),
             RaisedButton(
               child: Text("Answer 1"),
+              onPressed: null,
             ),
             RaisedButton(
               child: Text("Answer 1"),
+              onPressed: null,
             ),
             RaisedButton(
               child: Text("Answer 1"),
+              onPressed: null,
             ),
           ],
         ),

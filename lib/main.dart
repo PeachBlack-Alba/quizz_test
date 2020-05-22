@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     void answerQuestion() {
-      print("Anser choosen");
+      print("Anwser choosen");
     }
 
     var questions = ["What is ...", "Where..."];

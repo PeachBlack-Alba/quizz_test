@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       print("Anwser choosen");
     }
 
-    var questions = ["What is ...", "Where..."];
+    var questions = ["What is your fav", "Where something"];
 
     return MaterialApp(
       home: Scaffold(
@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
         ),
         body: Column(
           children: [
-            Text("Question"),
+            Text(
+              questions[0],
+            ),
             RaisedButton(
               child: Text("Answer 1"),
               onPressed: answerQuestion,

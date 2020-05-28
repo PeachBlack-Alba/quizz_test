@@ -67,9 +67,10 @@ class MyAppState extends State<MyApp> {
             Question(
               questions[questionIndex]["questionText"],
             ),
-            (questions[questionIndex]["answers"] as List<String>).map((answer) {
-              return Answer(answer);
-            })
+            ...(questions[questionIndex]["answers"] as List<String>)
+                .map((answer) {
+              return Answer(answerQuestion, answer);
+            }).toList()
           ],
         ),
       ),

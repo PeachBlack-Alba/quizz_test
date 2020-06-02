@@ -23,7 +23,7 @@ class MyAppState extends State<MyApp> {
       print(questionIndex);
     }
 
-    var questions = [
+    const questions = [
       {
         "questionText":
             "You’ve made it to Hogwarts, which means you’ve already bought a wand from Ollivander’s. What material is at its core?",

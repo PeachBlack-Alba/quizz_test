@@ -15,15 +15,7 @@ class MyApp extends StatefulWidget {
 class MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    var questionIndex = 0;
-    void answerQuestion() {
-      setState(() {
-        questionIndex = questionIndex + 1;
-      });
-      print(questionIndex);
-    }
-
-    const questions = [
+    final questions = const [
       {
         "questionText":
             "You’ve made it to Hogwarts, which means you’ve already bought a wand from Ollivander’s. What material is at its core?",
@@ -56,6 +48,17 @@ class MyAppState extends State<MyApp> {
       //   "answers": [],
       // }
     ];
+    var questionIndex = 0;
+
+    void answerQuestion() {
+      setState(() {
+        questionIndex = questionIndex + 1;
+      });
+      print(questionIndex);
+      if (questionIndex < questions.length) {
+        print("We have more questions");
+      }
+    }
 
     return MaterialApp(
       home: Scaffold(

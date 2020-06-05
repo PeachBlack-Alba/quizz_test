@@ -19,21 +19,38 @@ class MyAppState extends State<MyApp> {
       {
         "questionText":
             "You’ve made it to Hogwarts, which means you’ve already bought a wand from Ollivander’s. What material is at its core?",
-        "answers": ["Phoenix Feather", "Dragon Heartstring", "Unicorn Hair"],
+        "answers": [
+          {"text": "Phoenix Feather", "score": 0},
+          {"text": "Dragon Heartstring", "score": 1},
+          {"text": "Unicorn Hair", "score": 2}
+        ],
       },
       {
         "questionText":
             "During the end-of-year exams, you notice that one of your classmates was using an enchanted quill. You come top of the class anyway, but they are second. What do you do?",
         "answers": [
-          "Tell the professor immediately – cheating is wrong, no matter what.",
-          "Nothing, but if I hadn't come top of the class, I'd definitely tell the professor.",
-          "Encourage the other student to admit what they'd done to the professor.",
-          "Give them a high five for managing to sneak the quill into the exam.",
+          {
+            "Tell the professor immediately – cheating is wrong, no matter what."
+          },
+          {
+            "Nothing, but if I hadn't come top of the class, I'd definitely tell the professor."
+          },
+          {
+            "Encourage the other student to admit what they'd done to the professor."
+          },
+          {
+            "Give them a high five for managing to sneak the quill into the exam."
+          },
         ],
       },
       {
         "questionText": "You would be most hurt if a person called you...",
-        "answers": ["Weak", "Ignorant", "Unkind", "Boring"],
+        "answers": [
+          {"Weak"},
+          {"Ignorant"},
+          {"Unkind"},
+          {"Boring"}
+        ],
       },
       // {
       //   "questionText": "",

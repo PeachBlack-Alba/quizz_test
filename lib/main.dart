@@ -30,10 +30,14 @@ class MyAppState extends State<MyApp> {
             "During the end-of-year exams, you notice that one of your classmates was using an enchanted quill. You come top of the class anyway, but they are second. What do you do?",
         "answers": [
           {
-            "Tell the professor immediately – cheating is wrong, no matter what."
+            "text":
+                "Tell the professor immediately – cheating is wrong, no matter what.",
+            "score": 0
           },
           {
-            "Nothing, but if I hadn't come top of the class, I'd definitely tell the professor."
+            "text":
+                "Nothing, but if I hadn't come top of the class, I'd definitely tell the professor.",
+            "score": 1
           },
           {
             "Encourage the other student to admit what they'd done to the professor."

@@ -40,20 +40,24 @@ class MyAppState extends State<MyApp> {
             "score": 1
           },
           {
-            "Encourage the other student to admit what they'd done to the professor."
+            "text":
+                "Encourage the other student to admit what they'd done to the professor.",
+            "score": 2
           },
           {
-            "Give them a high five for managing to sneak the quill into the exam."
+            "text":
+                "Give them a high five for managing to sneak the quill into the exam.",
+            "score": 3
           },
         ],
       },
       {
         "questionText": "You would be most hurt if a person called you...",
         "answers": [
-          {"Weak"},
-          {"Ignorant"},
-          {"Unkind"},
-          {"Boring"}
+          {"text": "Weak", "score": 0},
+          {"text": "Ignorant", "score": 1},
+          {"text": "Unkind", "score": 2},
+          {"text": "Boring", "score": 3}
         ],
       },
       // {

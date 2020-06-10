@@ -100,7 +100,7 @@ class MyAppState extends State<MyApp> {
                 questionIndex: questionIndex,
                 questions: questions,
               )
-            : Result(),
+            : Result(totalScore),
       ),
     );
   }

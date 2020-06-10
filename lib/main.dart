@@ -20,9 +20,9 @@ class MyAppState extends State<MyApp> {
         "questionText":
             "You’ve made it to Hogwarts, which means you’ve already bought a wand from Ollivander’s. What material is at its core?",
         "answers": [
-          {"text": "Phoenix Feather", "score": 0},
-          {"text": "Dragon Heartstring", "score": 1},
-          {"text": "Unicorn Hair", "score": 2}
+          {"text": "Phoenix Feather", "score": 2},
+          {"text": "Dragon Heartstring", "score": 4},
+          {"text": "Unicorn Hair", "score": 6}
         ],
       },
       {
@@ -32,32 +32,32 @@ class MyAppState extends State<MyApp> {
           {
             "text":
                 "Tell the professor immediately – cheating is wrong, no matter what.",
-            "score": 0
-          },
-          {
-            "text":
-                "Nothing, but if I hadn't come top of the class, I'd definitely tell the professor.",
-            "score": 1
-          },
-          {
-            "text":
-                "Encourage the other student to admit what they'd done to the professor.",
             "score": 2
           },
           {
             "text":
+                "Nothing, but if I hadn't come top of the class, I'd definitely tell the professor.",
+            "score": 4
+          },
+          {
+            "text":
+                "Encourage the other student to admit what they'd done to the professor.",
+            "score": 6
+          },
+          {
+            "text":
                 "Give them a high five for managing to sneak the quill into the exam.",
-            "score": 3
+            "score": 8
           },
         ],
       },
       {
         "questionText": "You would be most hurt if a person called you...",
         "answers": [
-          {"text": "Weak", "score": 0},
-          {"text": "Ignorant", "score": 1},
-          {"text": "Unkind", "score": 2},
-          {"text": "Boring", "score": 3}
+          {"text": "Weak", "score": 2},
+          {"text": "Ignorant", "score": 4},
+          {"text": "Unkind", "score": 6},
+          {"text": "Boring", "score": 8}
         ],
       },
       // {

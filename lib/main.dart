@@ -74,8 +74,12 @@ class MyAppState extends State<MyApp> {
       // }
     ];
     var questionIndex = 0;
+    var totalScore = 0;
 
-    void answerQuestion() {
+    void answerQuestion(int score) {
+      totalScore += score;
+      // totalScore += score; = //totalScore = totalScore + score;
+
       setState(() {
         questionIndex = questionIndex + 1;
       });

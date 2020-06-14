@@ -100,13 +100,7 @@ class MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Quizz"),
-          Theme(
-  // Create a unique theme with "ThemeData"
-  data: ThemeData(
-    accentColor: Colors.yellow,
-  ),
         ),
-        
         body: questionIndex < questions.length
             ? Quiz(
                 answerQuestion: answerQuestion,

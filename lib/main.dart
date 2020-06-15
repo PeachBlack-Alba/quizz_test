@@ -60,18 +60,6 @@ class MyAppState extends State<MyApp> {
           {"text": "Boring", "score": 8}
         ],
       },
-      // {
-      //   "questionText": "",
-      //   "answers": [],
-      // },
-      // {
-      //   "questionText": "",
-      //   "answers": [],
-      // },
-      // {
-      //   "questionText": "",
-      //   "answers": [],
-      // }
     ];
     var questionIndex = 0;
     var totalScore = 0;

@@ -79,7 +79,7 @@ class MyAppState extends State<MyApp> {
         questionIndex = questionIndex + 1;
       });
       //sale error
-      print(questionIndex[questionIndex]);
+      //print(questions[questionIndex]);
       print(questionIndex);
       if (questionIndex < questions.length) {
         print("We have way more questions");
